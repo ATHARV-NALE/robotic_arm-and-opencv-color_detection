@@ -1,0 +1,73 @@
+[0.027s] Invoking command in '/home/atharva/robot_ws/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/robot_ws/install/robot_vision:/opt/ros/humble /usr/bin/cmake /home/atharva/robot_ws/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/atharva/robot_ws/install/robot_controller
+[0.098s] -- The C compiler identification is GNU 11.4.0
+[0.156s] -- The CXX compiler identification is GNU 11.4.0
+[0.164s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.257s] -- Detecting C compile features - done
+[0.262s] -- Detecting CXX compiler ABI info
+[0.349s] -- Detecting CXX compiler ABI info - done
+[0.358s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.359s] -- Detecting CXX compile features
+[0.360s] -- Detecting CXX compile features - done
+[0.361s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.552s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.785s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.927s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.927s] -- Added test 'lint_cmake' to check CMake code style
+[0.928s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.932s] -- Added test 'xmllint' to check XML markup files
+[0.933s] -- Configuring done
+[0.933s] -- Generating done
+[0.936s] -- Build files have been written to: /home/atharva/robot_ws/build/robot_controller
+[0.951s] Invoked command in '/home/atharva/robot_ws/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/robot_ws/install/robot_vision:/opt/ros/humble /usr/bin/cmake /home/atharva/robot_ws/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/atharva/robot_ws/install/robot_controller
+[0.953s] Invoking command in '/home/atharva/robot_ws/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/robot_ws/install/robot_vision:/opt/ros/humble /usr/bin/cmake --build /home/atharva/robot_ws/build/robot_controller -- -j20 -l20
+[1.028s] Built target ament_cmake_python_copy_robot_controller
+[1.311s] running egg_info
+[1.312s] creating robot_controller.egg-info
+[1.312s] writing robot_controller.egg-info/PKG-INFO
+[1.312s] writing dependency_links to robot_controller.egg-info/dependency_links.txt
+[1.313s] writing top-level names to robot_controller.egg-info/top_level.txt
+[1.313s] writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.314s] reading manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.315s] writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.355s] Built target ament_cmake_python_build_robot_controller_egg
+[1.366s] Invoked command in '/home/atharva/robot_ws/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/robot_ws/install/robot_vision:/opt/ros/humble /usr/bin/cmake --build /home/atharva/robot_ws/build/robot_controller -- -j20 -l20
+[1.370s] Invoking command in '/home/atharva/robot_ws/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/robot_ws/install/robot_vision:/opt/ros/humble /usr/bin/cmake --install /home/atharva/robot_ws/build/robot_controller
+[1.375s] -- Install configuration: ""
+[1.376s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller//launch
+[1.376s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller//launch/slider_controller.launch.py
+[1.377s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller//launch/controller.launch.py
+[1.377s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller//config
+[1.377s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller//config/robot_controllers.yaml
+[1.377s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller/environment/pythonpath.sh
+[1.378s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller/environment/pythonpath.dsv
+[1.378s] -- Installing: /home/atharva/robot_ws/install/robot_controller/local/lib/python3.10/dist-packages/robot_controller-0.0.0-py3.10.egg-info
+[1.378s] -- Installing: /home/atharva/robot_ws/install/robot_controller/local/lib/python3.10/dist-packages/robot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.378s] -- Installing: /home/atharva/robot_ws/install/robot_controller/local/lib/python3.10/dist-packages/robot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[1.379s] -- Installing: /home/atharva/robot_ws/install/robot_controller/local/lib/python3.10/dist-packages/robot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[1.379s] -- Installing: /home/atharva/robot_ws/install/robot_controller/local/lib/python3.10/dist-packages/robot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.379s] -- Installing: /home/atharva/robot_ws/install/robot_controller/local/lib/python3.10/dist-packages/robot_controller
+[1.379s] -- Installing: /home/atharva/robot_ws/install/robot_controller/local/lib/python3.10/dist-packages/robot_controller/slider_controller.py
+[1.380s] -- Installing: /home/atharva/robot_ws/install/robot_controller/local/lib/python3.10/dist-packages/robot_controller/__init__.py
+[1.411s] Listing '/home/atharva/robot_ws/install/robot_controller/local/lib/python3.10/dist-packages/robot_controller'...
+[1.412s] Compiling '/home/atharva/robot_ws/install/robot_controller/local/lib/python3.10/dist-packages/robot_controller/__init__.py'...
+[1.412s] Compiling '/home/atharva/robot_ws/install/robot_controller/local/lib/python3.10/dist-packages/robot_controller/slider_controller.py'...
+[1.416s] -- Installing: /home/atharva/robot_ws/install/robot_controller/lib/robot_controller/slider_controller.py
+[1.417s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+[1.417s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+[1.417s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+[1.417s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+[1.418s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller/environment/path.sh
+[1.418s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller/environment/path.dsv
+[1.418s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller/local_setup.bash
+[1.419s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller/local_setup.sh
+[1.420s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller/local_setup.zsh
+[1.420s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller/local_setup.dsv
+[1.421s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller/package.dsv
+[1.421s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+[1.422s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+[1.422s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+[1.423s] -- Installing: /home/atharva/robot_ws/install/robot_controller/share/robot_controller/package.xml
+[1.428s] Invoked command in '/home/atharva/robot_ws/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/robot_ws/install/robot_vision:/opt/ros/humble /usr/bin/cmake --install /home/atharva/robot_ws/build/robot_controller

@@ -1,0 +1,3 @@
+[console_scripts]
+color_detector = robot_vision.color_detector:main
+
