@@ -4,6 +4,8 @@ This project features a ROS 2 workspace simulating a Panda robotic arm (mounted 
 
 ![Project Overview](images/image.png)
 
+<video src="images/video.webm" width="100%" controls autoplay loop></video>
+
 ## 📦 Packages Overview
 
 The workspace (`robot_ws`) is functionally divided into the following packages:
