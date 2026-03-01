@@ -2,6 +2,8 @@
 
 This project features a ROS 2 workspace simulating a Panda robotic arm (mounted on a scissor lift) performing color detection using OpenCV and automating a pick-and-place workflow.
 
+![Project Overview](images/image.png)
+
 ## 📦 Packages Overview
 
 The workspace (`robot_ws`) is functionally divided into the following packages:
